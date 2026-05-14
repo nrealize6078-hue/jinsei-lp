@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="経営者C 顔写真プレースホルダ">
+  <defs>
+    <linearGradient id="v3bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3F6F1"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="url(#v3bg)"/>
+  <circle cx="100" cy="100" r="98" fill="none" stroke="#3CB55E" stroke-width="2"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#278D44" stroke-width="0.5" opacity=".6" stroke-dasharray="2 4"/>
+  <!-- Silhouette: shoulders narrower, head higher -->
+  <circle cx="100" cy="74" r="30" fill="#1a1a1a"/>
+  <path d="M44 200 Q44 134 100 134 Q156 134 156 200 Z" fill="#1a1a1a"/>
+  <text x="100" y="186" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="14" fill="#FFFFFF" letter-spacing="3">C</text>
+</svg>
