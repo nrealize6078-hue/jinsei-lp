@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー｜一般社団法人 人生支援経営推進協会</title>
+<meta name="description" content="一般社団法人 人生支援経営推進協会のプライバシーポリシー。個人情報の取り扱いについて。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700;900&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff;
+  --bg-soft:#f7f7f5;
+  --text:#1a1a1a;
+  --text-mute:#555;
+  --text-faint:#8a8a8a;
+  --accent:#1a4d2e;
+  --accent-soft:#e6efe9;
+  --line:rgba(26,26,26,0.10);
+  --line-strong:rgba(26,26,26,0.20);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{
+  font-family:"Noto Serif JP",serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:2.0;
+  letter-spacing:.04em;
+  overflow-x:hidden;
+}
+a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+img{max-width:100%;height:auto;display:block}
+a:hover{opacity:.7}
+
+/* ===== NAV ===== */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:80;
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px 32px;max-width:1280px;margin:0 auto;
+}
+.nav-brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text)}
+.nav-brand .name{
+  font-family:"Noto Serif JP",serif;font-weight:700;
+  font-size:14px;letter-spacing:.06em;line-height:1.2;
+}
+.nav-brand .name small{
+  display:block;font-family:"Noto Sans JP",sans-serif;font-size:9px;
+  color:var(--text-faint);letter-spacing:.22em;margin-top:3px;font-weight:600;
+}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{
+  font-family:"Noto Sans JP",sans-serif;font-weight:500;
+  font-size:13px;letter-spacing:.06em;color:var(--text);
+  text-decoration:none;transition:.25s;
+}
+.nav-links a:hover{color:var(--accent);opacity:1}
+.nav-cta{
+  padding:10px 22px;border-radius:999px;
+  background:var(--text);color:#fff !important;
+  font-weight:700;font-size:13px;letter-spacing:.06em;
+}
+.nav-cta:hover{opacity:.85}
+.hamburger{display:none;width:42px;height:42px;background:transparent;border:1px solid var(--line-strong);border-radius:8px;cursor:pointer;position:relative;padding:0}
+.hamburger span{display:block;position:absolute;left:9px;right:9px;height:2px;background:var(--text);transition:transform .35s ease,opacity .25s ease,top .25s ease}
+.hamburger span:nth-child(1){top:13px}
+.hamburger span:nth-child(2){top:20px}
+.hamburger span:nth-child(3){top:27px}
+.hamburger.open span:nth-child(1){top:20px;transform:rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){top:20px;transform:rotate(-45deg)}
+.mobile-nav{position:fixed;inset:0;background:#fff;z-index:75;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;opacity:0;visibility:hidden;transition:opacity .35s ease,visibility 0s linear .35s}
+.mobile-nav.open{opacity:1;visibility:visible;transition:opacity .35s ease}
+.mobile-nav a{font-size:18px;font-weight:700;color:var(--text);text-decoration:none;letter-spacing:.12em;padding:6px 16px}
+.mobile-nav a.cta{margin-top:12px;background:var(--text);color:#fff;padding:14px 30px;border-radius:999px}
+@media(max-width:880px){
+  .nav-inner{padding:12px 18px}
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:block}
+}
+
+/* ===== HERO ===== */
+.hero{
+  padding:160px 0 80px;
+  background:var(--bg-soft);
+  border-bottom:1px solid var(--line);
+}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+.hero h1{
+  font-family:"Noto Serif JP",serif;font-weight:900;
+  font-size:clamp(32px,5vw,46px);letter-spacing:.08em;line-height:1.4;
+  margin-bottom:16px;
+}
+.hero .en{
+  font-family:"Noto Sans JP",sans-serif;font-size:13px;
+  letter-spacing:.3em;color:var(--text-faint);text-transform:uppercase;
+  margin-bottom:24px;
+}
+.hero .lead{
+  font-size:15px;line-height:2.0;color:var(--text-mute);max-width:720px;
+}
+.hero .meta{
+  margin-top:32px;font-family:"Noto Sans JP",sans-serif;
+  font-size:12px;color:var(--text-faint);letter-spacing:.08em;
+}
+
+/* ===== MAIN ===== */
+main{padding:80px 0 100px}
+
+.section{margin-bottom:60px}
+.section h2{
+  font-family:"Noto Serif JP",serif;font-weight:900;
+  font-size:22px;letter-spacing:.06em;line-height:1.6;
+  margin-bottom:20px;padding-bottom:14px;
+  border-bottom:1px solid var(--line);
+  display:flex;align-items:baseline;gap:14px;
+}
+.section h2 .num{
+  font-family:"Noto Sans JP",sans-serif;font-weight:700;
+  font-size:14px;color:var(--accent);letter-spacing:.2em;
+}
+.section h3{
+  font-family:"Noto Serif JP",serif;font-weight:700;
+  font-size:16px;margin:24px 0 12px;color:var(--text);
+}
+.section p{
+  font-size:15px;line-height:2.0;color:var(--text);
+  margin-bottom:16px;
+}
+.section ul, .section ol{
+  margin:12px 0 16px 24px;
+  font-size:15px;line-height:2.0;color:var(--text);
+}
+.section li{margin-bottom:8px}
+.section strong{font-weight:700;color:var(--text)}
+
+/* contact box */
+.contact-box{
+  margin-top:24px;padding:32px;background:var(--bg-soft);
+  border-left:3px solid var(--accent);border-radius:4px;
+}
+.contact-box h3{margin-top:0;margin-bottom:18px;font-size:15px;letter-spacing:.08em}
+.contact-box dl{display:grid;grid-template-columns:120px 1fr;gap:10px 20px;font-size:14px}
+.contact-box dt{font-weight:700;color:var(--text-mute)}
+.contact-box dd{color:var(--text)}
+@media(max-width:600px){
+  .contact-box{padding:24px 20px}
+  .contact-box dl{grid-template-columns:1fr;gap:4px 0}
+  .contact-box dt{margin-top:10px;font-size:12px;color:var(--text-faint)}
+  .contact-box dt:first-child{margin-top:0}
+}
+
+/* footer */
+footer{
+  border-top:1px solid var(--line);
+  padding:50px 32px 30px;
+  background:var(--bg-soft);
+}
+.footer-inner{max-width:880px;margin:0 auto}
+.footer-brand{
+  font-family:"Noto Serif JP",serif;font-weight:700;
+  font-size:15px;letter-spacing:.06em;margin-bottom:10px;
+}
+.footer-brand small{
+  display:block;font-family:"Noto Sans JP",sans-serif;
+  font-size:10px;color:var(--text-faint);letter-spacing:.22em;margin-top:4px;
+}
+.footer-links{
+  display:flex;flex-wrap:wrap;gap:18px 28px;margin:24px 0;
+  font-family:"Noto Sans JP",sans-serif;font-size:13px;
+}
+.footer-links a{color:var(--text);text-decoration:none}
+.footer-links a:hover{color:var(--accent)}
+.copyright{
+  font-family:"Noto Sans JP",sans-serif;font-size:11px;
+  color:var(--text-faint);letter-spacing:.08em;padding-top:18px;
+  border-top:1px solid var(--line);
+}
+
+@media(max-width:600px){
+  .hero{padding:130px 0 60px}
+  main{padding:60px 0 80px}
+  .section h2{font-size:19px}
+  .section p, .section ul, .section ol{font-size:14px}
+}
+
+/* === 日本語の改行最適化 (mobile) === */
+@media (max-width: 880px) {
+  h1, h2, h3, h4, h5, h6, p, li, .lead, .ttl-en, .lead-jp, .body-jp,
+  .hero-tagline, .hero-jp, .problem-line, .declaration-line,
+  .verdict, .lede, .diff-col h3, .shift-card, .phil-card,
+  .footer-jp, .marquee-item, span, a, div {
+    word-break: auto-phrase;
+    overflow-wrap: anywhere;
+    line-break: strict;
+  }
+  /* fallback for browsers that don't support auto-phrase */
+  @supports not (word-break: auto-phrase) {
+    h1, h2, h3, h4, p, .hero-tagline, .hero-jp, .problem-line,
+    .verdict, .lede, .diff-col h3, .declaration-line {
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+  }
+}
+
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="name">一般社団法人 人生支援経営推進協会<small>JINSEI SHIEN KEIEI</small></div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">トップ</a>
+      <a href="whynow.html">今こそ経営の変革へ</a>
+      <a href="shindanshi.html">人生診断士</a>
+      <a href="nintei.html">法人認定</a>
+      <a href="index2.html">会社概要</a>
+      <a href="index.html#cta" class="nav-cta">お問い合わせ</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="メニュー" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html">トップ</a>
+  <a href="whynow.html">今こそ経営の変革へ</a>
+  <a href="shindanshi.html">人生診断士</a>
+  <a href="nintei.html">法人認定</a>
+  <a href="index2.html">会社概要</a>
+  <a href="index.html#cta" class="cta">お問い合わせ</a>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="en">Privacy Policy</div>
+    <h1>プライバシーポリシー</h1>
+    <p class="lead">
+      一般社団法人 人生支援経営推進協会（以下「当協会」といいます。）は、当協会が取り扱うすべての個人情報について、その重要性を認識し、適切な取得・利用・管理を行うことが社会的責務であると考えております。<br>
+      当協会では、個人情報の保護に関する法律（個人情報保護法）その他の関係法令及びガイドラインを遵守し、個人情報の保護に努めるため、以下のとおりプライバシーポリシーを定めます。
+    </p>
+    <div class="meta">制定日：2026年5月14日 ／ 最終改定日：2026年5月14日</div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <section class="section">
+      <h2><span class="num">01</span>個人情報の定義</h2>
+      <p>
+        本プライバシーポリシーにおける「個人情報」とは、個人情報保護法第2条第1項に定める個人情報、すなわち、生存する個人に関する情報であって、当該情報に含まれる氏名、生年月日その他の記述等により特定の個人を識別することができるもの、又は個人識別符号が含まれるものをいいます。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">02</span>個人情報の取得</h2>
+      <p>
+        当協会は、適法かつ公正な手段によって個人情報を取得します。当協会が取得する個人情報には、以下のものが含まれます。
+      </p>
+      <ul>
+        <li>お問い合わせフォーム、資料請求フォーム、各種お申込みフォームを通じてご提供いただく情報（氏名、会社名・団体名、役職、メールアドレス、電話番号、住所等）</li>
+        <li>セミナー・講座・人生診断士養成講座・人生支援経営法人認定に関するお申込み・受講・審査の過程で取得する情報</li>
+        <li>当協会が運営するウェブサイトの閲覧・利用に伴って取得する情報（Cookie、IPアドレス、ブラウザ種別、アクセスログ等）</li>
+        <li>業務上の連絡・取引の過程で取得する名刺情報、メール本文に含まれる情報等</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">03</span>個人情報の利用目的</h2>
+      <p>当協会は、取得した個人情報を、以下の目的のために利用いたします。</p>
+      <ul>
+        <li>お問い合わせ・資料請求・各種お申込みへの対応、回答、ご連絡のため</li>
+        <li>人生診断士養成講座・各種講座・セミナー・研修の運営、受講管理、資格認定及び更新業務のため</li>
+        <li>人生支援経営法人認定に関する審査、認定、更新、表示許諾の管理のため</li>
+        <li>当協会が提供するサービス、関連イベント、福利厚生プログラム、メールマガジン等の情報提供のため</li>
+        <li>当協会の活動報告、アンケート、調査・統計分析のため</li>
+        <li>契約・取引・請求等に関する事務処理及び連絡のため</li>
+        <li>不正アクセス、不正利用、その他違法又は不適切な行為への対応のため</li>
+        <li>法令又はガイドラインに基づく対応のため</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">04</span>個人情報の第三者提供</h2>
+      <p>
+        当協会は、以下のいずれかに該当する場合を除き、あらかじめご本人の同意を得ることなく、個人情報を第三者に提供することはありません。
+      </p>
+      <ol>
+        <li>法令に基づく場合</li>
+        <li>人の生命、身体又は財産の保護のために必要がある場合であって、ご本人の同意を得ることが困難であるとき</li>
+        <li>公衆衛生の向上又は児童の健全な育成の推進のために特に必要がある場合であって、ご本人の同意を得ることが困難であるとき</li>
+        <li>国の機関若しくは地方公共団体又はその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、ご本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき</li>
+        <li>合併その他の事由による事業の承継に伴って個人情報が提供される場合</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">05</span>個人情報の取扱いの委託</h2>
+      <p>
+        当協会は、利用目的の達成に必要な範囲内で、個人情報の取扱いの全部又は一部を外部委託する場合があります。この場合、当協会は、委託先に対して個人情報の安全管理が図られるよう、必要かつ適切な監督を行います。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">06</span>個人情報の安全管理</h2>
+      <p>
+        当協会は、個人情報への不正アクセス、紛失、破壊、改ざん及び漏えい等を防止するため、組織的・人的・物理的・技術的に必要かつ適切な安全管理措置を講じます。また、個人情報を取り扱う役員及び従業員に対し、適切な教育・研修を実施します。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">07</span>個人情報の開示・訂正・削除等</h2>
+      <p>
+        ご本人から、ご自身の個人情報について、利用目的の通知、開示、内容の訂正・追加・削除、利用の停止、消去、第三者への提供の停止のお申出があった場合には、ご本人であることを確認のうえ、法令の定めに従い、合理的な期間及び範囲内で速やかに対応いたします。
+      </p>
+      <p>
+        手続きの詳細につきましては、本ポリシー末尾の「お問い合わせ窓口」までご連絡ください。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">08</span>Cookie等の利用について</h2>
+      <p>
+        当協会のウェブサイトでは、サービスの利便性向上、利用状況の分析、広告配信等の目的でCookieその他類似の技術を使用することがあります。Cookieは、ご利用のブラウザの設定により受け取りを拒否することが可能ですが、その場合、当ウェブサイトの一部機能をご利用いただけない場合があります。
+      </p>
+      <p>
+        当協会は、Google Analytics 等の解析ツールを利用して、ウェブサイトの利用状況を統計的に分析する場合があります。これらのツールにより取得される情報は、個人を特定する形では使用されません。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">09</span>SSL（暗号化通信）について</h2>
+      <p>
+        当協会のウェブサイトでは、お問い合わせフォーム等を通じて送信される個人情報をSSL（Secure Sockets Layer）／TLSによって暗号化し、第三者による盗聴・改ざんを防止しております。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">10</span>プライバシーポリシーの変更</h2>
+      <p>
+        当協会は、法令の改正、社会情勢の変化、技術の進歩、当協会の業務内容の変更等に応じて、本プライバシーポリシーの内容を予告なく変更することがあります。変更後のプライバシーポリシーは、当ウェブサイトに掲載した時点から効力を生じるものとします。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2><span class="num">11</span>お問い合わせ窓口</h2>
+      <p>
+        本プライバシーポリシー、個人情報の取扱い、開示・訂正等のご請求その他のお問い合わせは、下記窓口までご連絡ください。
+      </p>
+      <div class="contact-box">
+        <h3>個人情報お問い合わせ窓口</h3>
+        <dl>
+          <dt>法人名</dt>
+          <dd>一般社団法人 人生支援経営推進協会</dd>
+          <dt>代表者</dt>
+          <dd>代表理事　大橋　孝行</dd>
+          <dt>所在地</dt>
+          <dd>〒160-0022　東京都新宿区新宿1-36-7　新宿内野ビルⅡ8階</dd>
+          <dt>電話番号</dt>
+          <dd><a href="tel:0363805978">03-6380-5978</a>（受付時間：平日 10:00 〜 18:00）</dd>
+          <dt>お問い合わせ</dt>
+          <dd><a href="index.html#cta">お問い合わせフォームはこちら</a></dd>
+        </dl>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">一般社団法人 人生支援経営推進協会<small>JINSEI SHIEN KEIEI SUISHIN KYOKAI</small></div>
+    <div class="footer-links">
+      <a href="index.html">トップ</a>
+      <a href="whynow.html">今こそ経営の変革へ</a>
+      <a href="shindanshi.html">人生診断士</a>
+      <a href="nintei.html">法人認定</a>
+      <a href="index2.html">会社概要</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="index.html#cta">お問い合わせ</a>
+    </div>
+    <div class="copyright">© 2026 一般社団法人 人生支援経営推進協会 / JINSEI SHIEN KEIEI SUISHIN KYOKAI. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+const hamburger=document.getElementById('hamburger');
+const mobileNav=document.getElementById('mobileNav');
+if(hamburger&&mobileNav){
+  hamburger.addEventListener('click',()=>{
+    const open=mobileNav.classList.toggle('open');
+    hamburger.classList.toggle('open',open);
+    hamburger.setAttribute('aria-expanded',open?'true':'false');
+    document.body.style.overflow=open?'hidden':'';
+  });
+  mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    mobileNav.classList.remove('open');hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded','false');document.body.style.overflow='';
+  }));
+}
+</script>
+
+</body>
+</html>

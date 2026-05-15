@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1430" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Realize club コンテンツ全体像 — 6テーマ">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF8F5"/>
+    </linearGradient>
+    <pattern id="gridC" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1a1a1a" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1100" height="1430" fill="url(#bgC)"/>
+  <rect width="1100" height="1430" fill="url(#gridC)"/>
+
+  <!-- Editorial header -->
+  <g font-family="Cormorant Garamond, serif" letter-spacing="6">
+    <text x="80" y="80" font-size="17" font-style="italic" fill="#1B6A17">— Six Steps to a Flourishing Life</text>
+    <text x="80" y="108" font-family="Bebas Neue, sans-serif" font-size="11" fill="#1a1a1a" letter-spacing="4">REALIZE CLUB · LIFE MAP</text>
+  </g>
+
+  <!-- Vertical life axis -->
+  <line x1="550" y1="160" x2="550" y2="1320" stroke="#278D44" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="550" cy="160" r="6" fill="#1B6A17"/>
+  <circle cx="550" cy="1320" r="6" fill="#1B6A17"/>
+
+  <!-- ============================================
+       NODE 01 — 人生教育（左）
+       ============================================ -->
+  <g transform="translate(550 240)">
+    <line x1="-220" y1="0" x2="-46" y2="0" stroke="#278D44" stroke-width="1.5" opacity=".55"/>
+    <circle r="46" fill="#FFFFFF" stroke="#278D44" stroke-width="2.5"/>
+    <text y="6" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="22" fill="#278D44">01</text>
+  </g>
+  <g transform="translate(290 240)">
+    <!-- 教科書アイコン -->
+    <g stroke="#1a1a1a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-30 -22 L0 -28 L30 -22 L30 22 L0 16 L-30 22 Z"/>
+      <line x1="0" y1="-28" x2="0" y2="16"/>
+      <line x1="-22" y1="-14" x2="-8" y2="-17"/>
+      <line x1="-22" y1="-4" x2="-8" y2="-7"/>
+      <line x1="8" y1="-17" x2="22" y2="-14"/>
+      <line x1="8" y1="-7" x2="22" y2="-4"/>
+    </g>
+    <text y="60" text-anchor="middle" font-family="Shippori Mincho, serif" font-size="20" font-weight="700" fill="#1a1a1a" letter-spacing="3">人生教育</text>
+    <text y="86" text-anchor="middle" font-family="Noto Sans JP, sans-serif" font-size="12" fill="#6b7170" letter-spacing="2">Eラーニング 教科書</text>
+  </g>
+
+  <!-- ============================================
+       NODE 02 — 人生診断（右）
+       ============================================ -->
+  <g transform="translate(550 430)">
+    <line x1="46" y1="0" x2="220" y2="0" stroke="#278D44" stroke-width="1.5" opacity=".55"/>
+    <circle r="46" fill="#FFFFFF" stroke="#278D44" stroke-width="2.5"/>
+    <text y="6" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="22" fill="#278D44">02</text>
+  </g>
+  <g transform="translate(810 430)">
+    <!-- 診断（円グラフ＋棒グラフ） -->
+    <g stroke="#1a1a1a" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <circle cx="-12" cy="-4" r="18"/>
+      <path d="M-12 -22 L-12 -4 L4 -4" stroke="#278D44" stroke-width="2"/>
+      <line x1="14" y1="6" x2="14" y2="-12"/>
+      <line x1="22" y1="6" x2="22" y2="-2"/>
+      <line x1="30" y1="6" x2="30" y2="-18"/>
+      <line x1="6" y1="6" x2="34" y2="6"/>
+    </g>
+    <text y="60" text-anchor="middle" font-family="Shippori Mincho, serif" font-size="20" font-weight="700" fill="#1a1a1a" letter-spacing="3">人生診断</text>
+    <text y="86" text-anchor="middle" font-family="Noto Sans JP, sans-serif" font-size="12" fill="#6b7170" letter-spacing="2">社員の生活を診断</text>
+  </g>
+
+  <!-- ============================================
+       NODE 03 — 人生設計（左）
+       ============================================ -->
+  <g transform="translate(550 620)">
+    <line x1="-220" y1="0" x2="-46" y2="0" stroke="#278D44" stroke-width="1.5" opacity=".55"/>
+    <circle r="46" fill="#FFFFFF" stroke="#278D44" stroke-width="2.5"/>
+    <text y="6" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="22" fill="#278D44">03</text>
+  </g>
+  <g transform="translate(290 620)">
+    <!-- 時間軸＋マーカー -->
+    <g stroke="#1a1a1a" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <line x1="-34" y1="0" x2="34" 
